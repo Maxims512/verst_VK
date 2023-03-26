@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
 
+.body{
+    background-color: #5f5b5b;
+}
+
 .header{
     position: absolute;
     background-color: aqua;
@@ -7,13 +11,36 @@
     height: 44px;
 }
 
-.header__iconLogo{
+
+.header__logo{
+    float: left;
     position: relative;
-    left: 95px;
+    width: 190px;
+    height: 44px;
+    left: 320px;
+}
+
+.header__iconLogo{
+    float: right;
+    position: relative;
     top: 9px;
     width: 80px;
     height: 26px;
 }
+
+.header__logoButton{
+    background-color: transparent;
+    position: relative;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    right: -80px;
+    top: 9px;
+    height: 26px;
+    width: 80px;
+}
+
 
 .header__search{
     position: relative;
@@ -22,7 +49,7 @@
     top: 6px;
     height: 32px;
     width: 200px;
-    left: 400px;
+    left: 334px;
     margin: 0;
     padding: 0 0 0 34;
     border-radius: 8px;
@@ -52,4 +79,34 @@
 }
 
 
+
+.header__notifications{
+    position: relative;
+    float: left;
+    height: 44px;
+    width: 80px;
+    position: relative;
+    left: 365px;
+}
+
+
+.header__notifications button{
+    float: left;
+    position: relative;
+    height: 44px;
+    width: 44px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.header__notifications img{
+    float: left;
+    position: relative;
+    height: 28px;
+    width: 28px;
+    top: 8px;
+    left: -36px;
+}
 
