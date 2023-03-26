@@ -98,6 +98,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    left: -28px;
     background-color: transparent;
 }
 
@@ -107,6 +108,6 @@
     height: 28px;
     width: 28px;
     top: 8px;
-    left: -36px;
+    left: 8px;
 }
 
